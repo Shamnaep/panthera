@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.container{
+    max-width: 1416px;
+    width: 100%;
+    
+}
+.section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ h2{
+    font-size: 32.9px
+}
+.header-2 h2{
+    width: 50%;
+}
+.header-2 p{
+    width: 50%;
+}
+.header-2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(56, 56, 57);
+    margin-bottom: 4rem;
+}
+.tiger{
+    max-width: 1416px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    list-style-type: none;
+.tigerreserve{
+    position: relative;
+}
+}
+.tigerimag{
+    width: 100%;
+    height: 100%;
+}
+.para-1{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: aliceblue;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    
+}
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 34px;
+    
+}
+.section-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(./images/tiger-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 980px;
+    margin-bottom: 100px;
+    
+
+}
+.handp{
+    width: 595px;
+    
+}
+.handp h1{
+    font-size:  67.34px;
+    margin-bottom: 24px;
+    color: aliceblue;
+
+}
+.handp p{
+    color: aliceblue;
+}
+.section-hero .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.panthera{
+font-size:28.43px ;
+font-weight: 600;
+color: aliceblue;
+}
+.explore{
+    background-color: #31BBFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: black;
+    text-decoration: none;
+}
+.li{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
